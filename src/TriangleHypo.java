@@ -1,3 +1,4 @@
+import java.awt.geom.Area;
 import java.util.Scanner;
 
 public class TriangleHypo {
@@ -10,7 +11,15 @@ public class TriangleHypo {
         System.out.print("Please enter the second side of triangle:");
         b= side.nextInt();
         c=Math.sqrt((a*a)+(b*b));
-        System.out.print("Hypotenuse of triangle:"+c);
+        System.out.println("Hypotenuse of triangle:"+c);
+        // Area of Triangle
+        double perimeter=(a+b+c);
+        double u=perimeter/2.0;
+        double area=u*(u-a)*(u-b)*(u-c);
+        double  Area =Math.sqrt(area);
+        System.out.println("Area of triangle:"+Area);
+
+
 
     }
 }
