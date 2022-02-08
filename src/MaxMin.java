@@ -4,14 +4,16 @@ public class MaxMin {
     public static void main(String[]args){
         Scanner input=new Scanner(System.in);
         int n;
+        int number;
+        int max,min;
         System.out.print("Enter the number:");
         n= input.nextInt();
-        int number;
-            int max,min;
-            System.out.print("1.Enter the number:");
-            number=input.nextInt();
-            min=number;
-            max=number;
+
+        System.out.print("1.Enter the number:");
+        number=input.nextInt();
+        min=number;
+        max=number;
+
             for (int i = 2; i < (n+1); i++) {
                 System.out.print(i+"-Enter the number:");
                 number=input.nextInt();

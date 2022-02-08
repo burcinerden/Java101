@@ -28,9 +28,7 @@ public class UserLogin {
                              System.out.println("The new password had created.");
                          }
             }
-            else{
-                System.out.println("You entered wrong username!");
-            }
+
         }
 
 
