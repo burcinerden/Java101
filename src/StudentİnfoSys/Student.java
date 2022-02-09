@@ -55,7 +55,7 @@ public class Student {
     }
 
     public void isPass() {
-        if (this.mat.note == 0 || this.fizik.note == 0 || this.kimya.note == 0 || this.mat.oralNote == 0 || this.fizik.oralNote == 0 || this.kimya.oralNote == 0) {
+        if (this.mat.note == 0 || this.fizik.note == 0 || this.kimya.note == 0 || this.mat.totalNote == 0 || this.fizik.totalNote == 0 || this.kimya.totalNote == 0) {
             System.out.println("Notlar tam olarak girilmemiş");
         } else {
             this.isPass = isCheckPass();
